@@ -86,7 +86,7 @@ class App {
     const coords = [latitude, longitude];
 
     this.#map = L.map('map').setView(coords, 10);
-    console.log(this);
+    //console.log(this);
 
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution:

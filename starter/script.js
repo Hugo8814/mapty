@@ -112,7 +112,6 @@ class App {
     setTimeout(() => (form.computedStyleMap.display = 'grid'));
   }
 
-  /////
   _toggleElevationField() {
     inputElevation.closest('.form__row').classList.toggle('form__row--hidden');
     inputCadence.closest('.form__row').classList.toggle('form__row--hidden');
